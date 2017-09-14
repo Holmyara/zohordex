@@ -23,7 +23,10 @@ module.exports.toXmlData = function (moduleName, data) {
   rows.forEach(function (row, idx) {
     ret += util.format('<row no="%s">', idx + 1);
     _.each(row, function (value, key) {
-      if (!_.isUndefined(value) || !_.isNull(value)) {
+      if(key=='Product Details') {
+        ret += util.format('<FL val="%s">%s</FL>', key, value);
+      }
+      else if (!_.isUndefined(value) || !_.isNull(value)) {
         ret += util.format('<FL val="%s"><![CDATA[%s]]></FL>', key, value);
       }
     });
