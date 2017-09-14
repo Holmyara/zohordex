@@ -2,6 +2,9 @@
 
 Node module to connect your application to zoho CRM API, specifically built for bulk operations.
 
+For alteration to original zohorde, see:
+https://github.com/urgent/zohordex/commit/e237211c28f2b1089399269c27376a946669216d#diff-ebdab6bf2779869f27eb6f4775a03bdd
+
 # Initialization
 
 ```js
