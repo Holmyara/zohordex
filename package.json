@@ -1,6 +1,6 @@
 {
   "name": "zohordex",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Improved Zoho CRM API wrapper for Node.js, allowing for nested elements",
   "main": "src/index.js",
   "scripts": {
