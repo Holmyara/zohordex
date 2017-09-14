@@ -1,0 +1,35 @@
+{
+  "name": "zohordex",
+  "version": "0.0.1",
+  "description": "Improved Zoho CRM API wrapper for Node.js, allowing for nested elements",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 $(find tests -name *.spec.js)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urgent/zohordex.git"
+  },
+  "keywords": [
+    "zoho",
+    "crm",
+    "api",
+    "wrapper",
+    "node"
+  ],
+  "author": "Urgent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/urgent/zohordex/issues"
+  },
+  "homepage": "https://github.com/urgent/zohordex#readme",
+  "dependencies": {
+    "bluebird": "~3.4.6",
+    "lodash": "~4.15.0",
+    "request": "~2.74.0"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "mocha": "~3.0.2"
+  }
+}
