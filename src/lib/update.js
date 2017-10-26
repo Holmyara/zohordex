@@ -36,7 +36,7 @@ module.exports = function (authToken, moduleName, rawParams) {
     newFormat: rawParams.newFormat,
     version: '2'
   };
-
+  console.log(params);
   return request.postAsync(baseUrl, {form: params})
     .then(function maybeParseResponse(httpResponse) {
       if (!rawParams.parseResult) {
