@@ -2,8 +2,12 @@
 
 Node module to connect your application to zoho CRM API, specifically built for bulk operations.
 
+**Comment from @urgent:**
 For alteration to original zohorde, see:
 https://github.com/urgent/zohordex/commit/e237211c28f2b1089399269c27376a946669216d#diff-ebdab6bf2779869f27eb6f4775a03bdd
+
+**Comment from me (@janek26):**
+My fork uses the EU servers instead of the US ones, because the api keys generated with an EU account won't work on the US servers. I just changed every `zoho.com` to `zoho.eu`.
 
 # Initialization
 
