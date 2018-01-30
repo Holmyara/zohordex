@@ -1,6 +1,6 @@
 'use strict';
 
-var BASE_URL_RAW = 'https://crm.zoho.com/crm/private/json/%s/updateRecords';
+var BASE_URL_RAW = 'https://crm.zoho.eu/crm/private/json/%s/updateRecords';
 var ROWS_PER_API = 100;
 var MAX_SUCCESSIVE_ERROR = 3;
 

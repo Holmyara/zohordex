@@ -1,6 +1,6 @@
 'use strict';
 
-var BASE_URL_RAW = 'https://crm.zoho.com/crm/private/json/%s/updateRecords';
+var BASE_URL_RAW = 'https://crm.zoho.eu/crm/private/json/%s/updateRecords';
 
 var _ = require('lodash');
 var util = require('util');

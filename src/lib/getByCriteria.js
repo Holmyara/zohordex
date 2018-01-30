@@ -66,7 +66,7 @@ Sample raw response (result trimmed to keep it short)
 
 'use strict';
 
-var BASE_URL_RAW = 'https://crm.zoho.com/crm/private/json/%s/searchRecords';
+var BASE_URL_RAW = 'https://crm.zoho.eu/crm/private/json/%s/searchRecords';
 var NO_DATA_ERROR_CODE = 4422;
 
 var _ = require('lodash');

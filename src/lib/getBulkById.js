@@ -66,7 +66,7 @@ Sample response from single API zoho getRecordById
 
 'use strict';
 
-var BASE_URL_RAW = 'https://crm.zoho.com/crm/private/json/%s/getRecordById';
+var BASE_URL_RAW = 'https://crm.zoho.eu/crm/private/json/%s/getRecordById';
 var GET_RECORD_SIZE = 100; // Max is 100
 var MAX_SUCCESSIVE_ERROR = 3;
 
