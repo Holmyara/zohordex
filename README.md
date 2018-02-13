@@ -13,7 +13,7 @@ My fork uses the EU servers instead of the US ones, because the api keys generat
 
 ```js
 var ZOHO_CRM_AUTH_KEY = '99e00de081d1cd9a38e467fee6ab684e'
-var zohorde = require('zohorde')(ZOHO_CRM_AUTH_KEY)
+var zohorde = require('zohordeu')(ZOHO_CRM_AUTH_KEY)
 ```
 
 Now you can call the APIs.
